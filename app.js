@@ -36,7 +36,7 @@ function edit(index) {
             arr[index] = text;
             appendList();
         } else {
-            alert("Cannot be empty");
+            alert("Cannot be empty!");
         }
     } else {
         // User cancelled the prompt
